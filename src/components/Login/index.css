@@ -1,0 +1,146 @@
+.login-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100vh;
+  background-color: #f8fafc;
+}
+@media screen and (max-width: 767px) {
+  .login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffffff;
+  }
+}
+
+.login-image-desktop {
+  height: 100vh;
+  width: 50%;
+  display: block;
+}
+.login-image-mobile {
+  margin-top: 7%;
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .login-image-mobile {
+    display: block;
+  }
+  .login-image-desktop {
+    display: none;
+  }
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 499px;
+  height: 484px;
+  top: 270px;
+  margin-left: 10%;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .form-container {
+    width: 350px;
+    margin-left: 0%;
+  }
+}
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+.login-website-logo {
+  width: 141px;
+  height: 48px;
+  top: 318px;
+  left: 1031px;
+}
+@media screen and (max-width: 767px) {
+  .login-website-logo {
+    width: 104px;
+    height: 28px;
+    top: 264px;
+    left: 128px;
+  }
+}
+.custom-input {
+  width: 360px;
+  height: 46px;
+  top: 34px;
+  border: 1px solid #c3cad9;
+  border-radius: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  outline: none;
+}
+
+@media screen and (max-width: 767px) {
+  .custom-input {
+    width: 312px;
+    height: 46px;
+    top: 34px;
+  }
+}
+
+.user-name,
+.password {
+  font-family: 'Inter';
+  margin-bottom: 7px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19.36px;
+  color: #5a7184;
+}
+.login-button {
+  width: 360px;
+  height: 56px;
+  background-color: #0284c7;
+  bottom: none;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21.78px;
+  text-align: center;
+  color: #ffffff;
+  border: none;
+  border-color: none;
+  outline: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+@media screen and (max-width: 767px) {
+  .login-button {
+    width: 312px;
+    height: 40px;
+    top: 544px;
+    left: 24px;
+    cursor: pointer;
+  }
+}
+
+.show-pwd-container {
+  margin-bottom: 10px;
+}
+.show-password {
+  font-family: 'Inter';
+  margin-bottom: 7px;
+  font-size: 16px;
+  line-height: 19.36px;
+  color: #5a7184;
+  cursor: pointer;
+}
+.error-message {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18.24px;
+  color: #ef4444;
+}

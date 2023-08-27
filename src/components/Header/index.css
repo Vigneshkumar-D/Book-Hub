@@ -1,0 +1,112 @@
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  height: 89px;
+  border: 1px;
+  min-width: 100%;
+  margin-right: 0px;
+  background-color: #ffffff;
+  position: relative;
+}
+
+@media screen and (max-width: 767px) {
+  .header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 360px;
+    height: 56px;
+  }
+}
+.app-logo {
+  width: 133px;
+  height: 41px;
+  cursor: pointer;
+}
+@media screen and (max-width: 767px) {
+  .app-logo {
+    width: 92px;
+    height: 24.002347946166992px;
+    top: 16px;
+    left: 24px;
+  }
+}
+.header-sub-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+@media screen and (max-width: 768px) {
+  .header-sub-container {
+    display: none;
+  }
+}
+
+.header-nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-end;
+  width: 220px;
+  padding-right: 14px;
+}
+@media screen and (max-width: 767px) {
+  .header-sub-container {
+    display: none;
+  }
+}
+.home-text,
+.shelves-text {
+  font-family: Inter;
+  font-size: 16px;
+  color: #64748b;
+  font-weight: 500;
+  line-height: 24px;
+  cursor: pointer;
+  padding-left: 0px;
+}
+
+.active {
+  color: #0284c7;
+  font-weight: 600;
+  font-family: 'Inter';
+  font-size: 16px;
+  line-height: 24px;
+}
+.logout-button {
+  width: 73px;
+  height: 32px;
+  font-size: 12px;
+  background-color: #0284c7;
+  border-radius: 4px;
+  color: #ffffff;
+  border: none;
+  font-family: Inter;
+  padding: 8px, 16px, 8px, 16px;
+  gap: 8px;
+  cursor: pointer;
+}
+.link-item {
+  text-decoration: none;
+  font-family: 'Inter';
+  font-size: 16px;
+  color: #64748b;
+  font-weight: 500;
+  line-height: 24px;
+  cursor: pointer;
+}
+.ul-list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  padding-left: 0px;
+  justify-content: space-around;
+}
