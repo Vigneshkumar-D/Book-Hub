@@ -231,9 +231,10 @@ class BookShelves extends Component {
                   type="button"
                   className="search-btn"
                   testid="searchButton"
+                  onClick={this.onClickSearchIcon}
                 >
                   <BsSearch
-                    onClick={this.onClickSearchIcon}
+                    
                     className="search-icon"
                   />
                 </button>
